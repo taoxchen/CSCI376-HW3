@@ -18,9 +18,11 @@ def convert():
         else:
             result_label.set_text(f"{temp}°F = {(temp - 32) * 5/9:.2f}°C")
         result_label.classes("text-lg font-semibold text-positive mt-4")
+        # text-positive:
     except ValueError:
         result_label.set_text("Please enter a valid number.")
         result_label.classes("text-lg font-semibold text-negative mt-4")
+        # text-negative:
 
 with ui.card().classes("w-100 p-6 shadow-xl mx-auto mt-10 rounded-xl"):
     # w-100: Set element width to be fixed at 100
