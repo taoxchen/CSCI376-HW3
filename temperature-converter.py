@@ -64,3 +64,5 @@ with ui.card().classes("w-100 p-6 shadow-xl mx-auto mt-10 rounded-xl"):
     result2_label = ui.label("").classes("text-xl font-semibold text-info mt-4 border border-info p-2 rounded-lg justify-center")
 
 ui.run(port=8081)
+
+print("HI")
