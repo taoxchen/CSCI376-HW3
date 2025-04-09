@@ -65,4 +65,3 @@ with ui.card().classes("w-100 p-6 shadow-xl mx-auto mt-10 rounded-xl"):
 
 ui.run(port=8081)
 
-print("HI")
